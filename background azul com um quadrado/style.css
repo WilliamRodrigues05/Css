@@ -1,0 +1,18 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: blue;
+}
+.quadrado{
+    height: 200px;
+    width: 200px;
+    background-color:black ;
+    border: solid 2px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
