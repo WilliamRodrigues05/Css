@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(104, 8, 8);
+}
+.bloco1{
+    order: 0;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.bloco2{
+    order: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 85, 85);
+    align-self: center;
+    flex: 0 1 auto;
+}
+.bloco3{
+    order: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(43, 158, 158);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
